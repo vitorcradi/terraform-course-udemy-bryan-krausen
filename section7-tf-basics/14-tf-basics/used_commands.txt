@@ -1,0 +1,12 @@
+created the main file with random_string, lenght 16
+terraform fmt
+terraform validate
+terraform plan
+terraform plan -out myplan - saved the plan with lenght of 16
+terraform apply myplan
+
+changed the main file with random_string, lenght to 10
+terraform apply
+
+terraform plan -destroy
+terraform destroy
